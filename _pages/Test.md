@@ -1,6 +1,6 @@
 ---
 title: "Test"
-layout: archive
+layout: post
 permalink: /unreal
 ---
 
