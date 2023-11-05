@@ -7,5 +7,5 @@ main:
 sidebar-category:
   - title: "카테고리"
     children:
-      - title: "언리얼"
-        url: "/unreal"
+      - title: "Document"
+        url: "/docs"

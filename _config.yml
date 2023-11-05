@@ -286,7 +286,7 @@ collections:
 defaults:
   # unreal
   - scope:
-      path: "unreal"
+      path: "docs"
       type: posts
     values:
       layout: single
