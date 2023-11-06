@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/ryewon/ryewon.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Ryewon"
+masthead_title           : "잡식성 개발자"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -276,17 +276,15 @@ compress_html:
   ignore:
     envs: development
 
-# Collections
-collections:
-  docs:
+docs:
     output: true
     permalink: /:collection/:path/
 
 # Defaults
 defaults:
-  # unreal
+  # _posts
   - scope:
-      path: "docs"
+      path: ""
       type: posts
     values:
       layout: single
@@ -295,5 +293,16 @@ defaults:
       comments: # true
       share: true
       related: true
-    sidebar:                  # 추가한 부분
-      nav: "sidebar-category" # 추가한 부분
+
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
