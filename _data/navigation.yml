@@ -4,24 +4,24 @@
 #    url: https://ryewon.github.io/docs/quick-start-guide/
   # - title: "Sitemap"
   #   url: /sitemap/
-#sidebar-category:
-#  - title: "카테고리"
-#    children:
-#      - title: "Document"
-#        url: "/docs"
 
 
 # main links
 main:
   - title: "Quick-Start Guide"
     url: "/docs/quick-start-guide/"
+sidebar-category:
+  - title: "카테고리"
+    children:
+      - title: "Document"
+        url: "/docs"
 
 # documentation links
-#docs:
-#- title: Getting Started
-#  children:
-#    - title: "Quick-Start Guide"
-#      url: "/docs/quick-start-guide/"
+docs:
+- title: Getting Started
+  children:
+    - title: "Quick-Start Guide"
+      url: "/docs/quick-start-guide/"
 #    - title: "Structure"
 #      url: "/docs/structure/"
 #    - title: "Installation"
