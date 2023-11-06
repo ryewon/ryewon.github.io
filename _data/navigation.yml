@@ -10,9 +10,9 @@
 main:
   - title: "카테고리"
     url: "/categories/"
-  - title: "Posts"
+  - title: "포스트"
     url: "/year-archive/"
-  - title: "Pages"
+  - title: "페이지"
     url: "/page-archive/"
 #  - title: "Quick-Start Guide"
 #    url: "/docs/quick-start-guide/"
