@@ -276,9 +276,9 @@ compress_html:
   ignore:
     envs: development
 
-#docs:
-#    output: true
-#    permalink: /:collection/:path/
+docs:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
