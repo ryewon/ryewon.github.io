@@ -303,5 +303,3 @@ defaults:
       author_profile: false
       share: false
       comments: false
-      sidebar:
-        nav: "docs"
