@@ -11,7 +11,7 @@
 #        url: "/docs"
 
 
- main links
+# main links
 main:
   - title: "Quick-Start Guide"
     url: "/docs/quick-start-guide/"
