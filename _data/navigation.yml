@@ -11,10 +11,10 @@
 #        url: "/docs"
 
 
-# main links
-#main:
-#  - title: "Quick-Start Guide"
-#    url: /docs/quick-start-guide/
+ main links
+main:
+  - title: "Quick-Start Guide"
+    url: /docs/quick-start-guide/
 
 # documentation links
 #docs:
