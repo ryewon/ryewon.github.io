@@ -14,7 +14,7 @@
  main links
 main:
   - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+    url: "/docs/quick-start-guide/"
 
 # documentation links
 #docs:
