@@ -109,9 +109,9 @@ mermaid:
 heading_anchors: true
 
 # Aux links for the upper right navigation
-aux_links:
-  "Ryewon on GitHub1":
-    - "https://github.com/ryewon/ryewon.github.io"
+#aux_links:
+#  "Ryewon on GitHub1":
+#    - "https://github.com/ryewon/ryewon.github.io"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
