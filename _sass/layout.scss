@@ -37,7 +37,7 @@
 
     .main-header {
       display: none;
-      background-color: $sidebar-color;
+      background-color: $white;
 
       @include mq(md) {
         display: flex;
