@@ -16,7 +16,7 @@
 title: Ryewon
 description: Chicken coop owner's Blog
 baseurl: ""
-url: "https://ryewon.com"
+url: "http://ryewon.com"
 repository: ryewon/ryewon.github.io
 
 permalink: pretty
