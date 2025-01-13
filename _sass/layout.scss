@@ -139,7 +139,7 @@
   @include fs-6;
 
   @include mq(md) {
-    padding-top: $$header-height;
+    padding-top: $header-height;
     padding-bottom: $sp-2;
   }
 }
