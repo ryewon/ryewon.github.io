@@ -106,7 +106,7 @@
 
   @include mq(md) {
     display: block;
-    padding-top: $sp-1;
+    padding-top: $sp-5;
     padding-bottom: $gutter-spacing-sm;
     overflow-y: auto;
     flex: 1 1 auto;
@@ -115,12 +115,12 @@
 
 .site-header {
   display: flex;
-  min-height: $sp-1;
+  min-height: $sp-5;
   align-items: center;
 
   @include mq(md) {
-    height: $sp-1;
-    max-height: $sp-1;
+    height: $sp-5;
+    max-height: $header-height;
     border-bottom: $border $border-color;
   }
 }
@@ -139,7 +139,7 @@
   @include fs-6;
 
   @include mq(md) {
-    padding-top: $sp-2;
+    padding-top: $$header-height;
     padding-bottom: $sp-2;
   }
 }
