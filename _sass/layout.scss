@@ -115,7 +115,7 @@
 
 .site-header {
   display: flex;
-  min-height: $header-height;
+  min-height: $sp-1;
   align-items: center;
 
   @include mq(md) {
