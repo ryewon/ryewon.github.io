@@ -115,7 +115,7 @@
 
 .site-header {
   display: flex;
-  min-height: $sp-5;
+  min-height: $sp-1;
   align-items: center;
 
   @include mq(md) {
@@ -130,8 +130,8 @@
   display: flex;
   height: 100%;
   align-items: center;
-  padding-top: $sp-3;
-  padding-bottom: $sp-3;
+  padding-top: $sp-1;
+  padding-bottom: $sp-1;
   color: $body-heading-color;
 
   @include container;
@@ -139,7 +139,7 @@
   @include fs-6;
 
   @include mq(md) {
-    padding-top: $header-height;
+    padding-top: $sp-1;
     padding-bottom: $sp-2;
   }
 }
