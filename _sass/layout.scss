@@ -119,8 +119,8 @@
   align-items: center;
 
   @include mq(md) {
-    height: $sp-0;
-    max-height: $sp-0;
+    height: $sp-5;
+    max-height: $header-height;
     //border-bottom: $border $border-color;
   }
 }
