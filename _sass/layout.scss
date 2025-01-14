@@ -120,7 +120,7 @@
 
   @include mq(md) {
     height: $sp-0;
-    max-height: $header-height;
+    max-height: $sp-0;
     //border-bottom: $border $border-color;
   }
 }
