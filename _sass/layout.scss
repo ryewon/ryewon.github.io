@@ -216,7 +216,7 @@ body {
   @include mq(md) {
     position: static;
     justify-self: end;
-    padding-right: $sp-1;
+    padding-right: $sp-0;
   }
 }
 
