@@ -119,7 +119,7 @@
   align-items: center;
 
   @include mq(md) {
-    height: $sp-5;
+    height: $sp-0;
     max-height: $header-height;
     //border-bottom: $border $border-color;
   }
