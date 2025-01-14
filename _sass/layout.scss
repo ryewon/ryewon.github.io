@@ -130,7 +130,7 @@
   display: flex;
   height: 100%;
   align-items: center;
-  padding-top: $sp-1;
+  padding-top: $sp-0;
   padding-bottom: $sp-1;
   color: $body-heading-color;
 
@@ -139,7 +139,7 @@
   @include fs-6;
 
   @include mq(md) {
-    padding-top: $sp-1;
+    padding-top: $sp-0;
     padding-bottom: $sp-2;
   }
 }
