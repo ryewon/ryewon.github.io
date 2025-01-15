@@ -214,7 +214,7 @@ body {
   @include fs-2;
 
   @include mq(md) {
-    position: static;
+    position: fixed;
     justify-self: end;
     padding-right: $sp-1;
   }
