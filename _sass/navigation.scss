@@ -159,11 +159,11 @@
 
       > .nav-list-item {
         > .nav-list-link {
-          color: #000000;
+          color: $link-color;
         }
 
         > .nav-list-expander {
-          color: #000000;
+          color: $link-color;
         }
       }
     }
