@@ -74,7 +74,7 @@
       width: $nav-list-item-height-sm;
       height: $nav-list-item-height-sm;
       padding: #{$nav-list-item-height-sm * 0.25};
-      color: #000000;
+      color: $link-color;
 
       @include mq(md) {
         width: $nav-list-item-height;
@@ -106,11 +106,11 @@
         position: relative;
 
         .nav-list-link {
-          color: #000000;
+          color: $nav-child-link-color;
         }
 
         .nav-list-expander {
-          color: #000000;
+          color: $nav-child-link-color;
         }
       }
     }
@@ -159,11 +159,18 @@
 
       > .nav-list-item {
         > .nav-list-link {
-          color: #000000;
+          color: $link-color;
         }
 
         > .nav-list-expander {
+          color: $link-color;
+        }
+      }
+
+      @include mq(md) {
+        a {
           color: #000000;
+          text-decoration: none;
         }
       }
     }
