@@ -106,11 +106,11 @@
         position: relative;
 
         .nav-list-link {
-          color: $link-color;
+          color: $nav-child-link-color;
         }
 
         .nav-list-expander {
-          color: $link-color;
+          color: $nav-child-link-color;
         }
       }
     }
