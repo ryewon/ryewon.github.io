@@ -74,7 +74,7 @@
       width: $nav-list-item-height-sm;
       height: $nav-list-item-height-sm;
       padding: #{$nav-list-item-height-sm * 0.25};
-      color: $link-color;
+      color: #000000;
 
       @include mq(md) {
         width: $nav-list-item-height;
@@ -106,11 +106,11 @@
         position: relative;
 
         .nav-list-link {
-          color: $nav-child-link-color;
+          color: #000000;
         }
 
         .nav-list-expander {
-          color: $nav-child-link-color;
+          color: #000000;
         }
       }
     }
@@ -159,11 +159,11 @@
 
       > .nav-list-item {
         > .nav-list-link {
-          color: $link-color;
+          color: #000000;
         }
 
         > .nav-list-expander {
-          color: $link-color;
+          color: #000000;
         }
       }
     }
