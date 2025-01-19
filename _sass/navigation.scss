@@ -157,6 +157,11 @@
     > .nav-list {
       padding: 0;
 
+      @media a {
+        color: #000000;
+        text-decoration: none;
+      }
+
       > .nav-list-item {
         > .nav-list-link {
           color: $link-color;
@@ -165,14 +170,7 @@
         > .nav-list-expander {
           color: $link-color;
         }
-      }
-
-      @include mq(md) {
-        a {
-          color: #000000;
-          text-decoration: none;
-        }
-      }
+      }      
     }
   }
 }
