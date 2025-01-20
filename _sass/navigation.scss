@@ -12,7 +12,7 @@
     margin: 0;
 
     a {
-      color: #000;
+      color: $nav-child-link-color;
     }
 
     @include fs-4;
