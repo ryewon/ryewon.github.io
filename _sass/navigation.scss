@@ -11,6 +11,10 @@
     position: relative;
     margin: 0;
 
+    a {
+      color: #000;
+    }
+
     @include fs-4;
 
     @include mq(md) {
@@ -151,10 +155,6 @@
 }
 
 .nav-list.nav-category-list {
-  a {
-    color: #000;
-  }
-
   > .nav-list-item {
     margin: 0;
 
