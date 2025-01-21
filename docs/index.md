@@ -11,10 +11,10 @@ permalink: /
 {% include components/nav/pages.html pages=site.html_pages all=include.all %}
 
 {%- if site.nav_external_links -%}
-  <ul class="nav-list">
+  <ul class="main-nav-list">
     {%- for node in site.nav_external_links -%}
-      <li class="nav-list-item external">
-        <a href="{{ node.url | absolute_url }}" class="nav-list-link external"
+      <li class="main-nav-list-item external">
+        <a href="{{ node.url | absolute_url }}" class="main-nav-list-link external"
           {% if node.opens_in_new_tab or node.opens_in_new_tab == nil and site.nav_external_links_new_tab %}
             target="_blank" rel="noopener noreferrer"
           {% endif %}
