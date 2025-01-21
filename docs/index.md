@@ -8,15 +8,15 @@ permalink: /
 {: .fs-8 }
 
 
-<nav aria-label="Main" id="site-nav" class="site-nav">
-  {% assign pages_top_size = site.html_pages
+<nav id="site-nav" class="site-nav">
+  <!--{% assign pages_top_size = site.html_pages
         | where_exp:"item", "item.title != nil"
         | where_exp:"item", "item.parent == nil"
         | where_exp:"item", "item.nav_exclude != true"
         | size %}
   {% if pages_top_size > 0 %}
     {% include components/nav/pages.html pages=site.html_pages all=include.all %}
-  {% endif %}
+  {% endif %}-->
   {%- if site.nav_external_links -%}
     <ul class="nav-list">
       {%- for node in site.nav_external_links -%}
