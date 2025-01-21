@@ -252,6 +252,10 @@
       color: $nav-child-link-color;
     }
 
+    li {
+      margin: 0 0;
+    }
+
     @include fs-4;
 
     @include mq(md) {
