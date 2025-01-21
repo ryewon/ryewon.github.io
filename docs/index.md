@@ -17,6 +17,8 @@ permalink: /
   {% if pages_top_size > 0 %}
     {% include components/nav/pages.html pages=site.html_pages all=include.all %}
   {% endif %}-->
+  {% include components/nav/pages.html pages=site.html_pages all=include.all %}
+
   {%- if site.nav_external_links -%}
     <ul class="nav-list">
       {%- for node in site.nav_external_links -%}
