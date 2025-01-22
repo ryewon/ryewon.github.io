@@ -264,8 +264,8 @@
 
     .main-nav-list-link {
       display: block;
-      min-height: $nav-list-item-height-sm;
-      padding-top: $sp-1;
+      min-height: 0;
+      padding-top: 0;
       padding-bottom: $sp-1;
       line-height: #{$nav-list-item-height-sm - 2 * $sp-1};
       @if $nav-list-expander-right {
