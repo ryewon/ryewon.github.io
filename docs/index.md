@@ -10,7 +10,7 @@ permalink: /
 
 {% include components/nav/pages.html pages=site.html_pages all=include.all %}
 
-{%- if site.nav_external_links -%}
+<!--{%- if site.nav_external_links -%}
   <ul class="main-nav-list">
     {%- for node in site.nav_external_links -%}
       <li class="main-nav-list-item external">
@@ -26,3 +26,4 @@ permalink: /
     {%- endfor -%}
   </ul>
 {%- endif -%}
+-->
